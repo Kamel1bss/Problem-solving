@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// function checks palindrome
+// function checks if palindrome
 bool is_palindrome(int num)
 {
     bool palindrome = true;
@@ -26,7 +26,7 @@ bool is_palindrome(int num)
     return palindrome;
 }
 
-// functions checks prime
+// function checks if prime
 bool is_prime(int num)
 {
     if (num == 0 || num == 1)
